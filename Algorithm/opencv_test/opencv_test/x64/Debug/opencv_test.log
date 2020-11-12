@@ -1,0 +1,281 @@
+﻿  소스.cpp
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\cvdef.h(163): warning C4005: 'CV_HARDWARE_MAX_FEATURE': 매크로 재정의
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core_c.h(1709): note: 'CV_HARDWARE_MAX_FEATURE'의 이전 정의를 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\cvdef.h(233): error C2011: 'Cv32suf': 'union' 형식 재정의
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\types_c.h(199): note: 'Cv32suf' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\cvdef.h(247): error C2011: 'Cv64suf': 'union' 형식 재정의
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\types_c.h(207): note: 'Cv64suf' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\cvstd.hpp(137): error C2953: 'cv::Allocator': 클래스 템플릿이 이미 정의되었습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\cvstd.hpp(108): note: 'cv::Allocator' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\cvstd.hpp(403): warning C4099: 'cv::Ptr': 처음에는 'class'을(를) 사용하여 형식 이름을 표시했는데 이제는 'struct'을(를) 사용하여 표시합니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(1268): note: 'cv::Ptr' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\cvstd.hpp(403): error C2953: 'cv::Ptr': 클래스 템플릿이 이미 정의되었습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\cvstd.hpp(261): note: 'cv::Ptr' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\cvstd.hpp(458): error C2371: 'cv::String': 재정의. 기본 형식이 다릅니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(87): note: 'cv::String' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(67): error C2664: 'int cv::_interlockedExchangeAdd(int *,int)': 인수 1을(를) 'unsigned int *'에서 'int *'(으)로 변환할 수 없습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(67): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(72): error C2664: 'int cv::_interlockedExchangeAdd(int *,int)': 인수 1을(를) 'unsigned int *'에서 'int *'(으)로 변환할 수 없습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(72): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(112): error C2244: 'cv::Ptr::Ptr': 함수 정의를 기존 선언과 일치시킬 수 없습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(112): note: 'cv::Ptr::Ptr' 선언을 참조하십시오.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(112): note: 정의
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(112): note: 'cv::Ptr::Ptr(void)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(112): note: 기존 선언
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(112): note: 'cv::Ptr<_Tp>::Ptr(const cv::Ptr<_Tp2> &)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(112): note: 'cv::Ptr<_Tp>::Ptr(const cv::Ptr<_Tp> &)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(112): note: 'cv::Ptr<_Tp>::Ptr(_Tp *)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(112): note: 'cv::Ptr<_Tp>::Ptr(void)'
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(118): error C2244: 'cv::Ptr::Ptr': 함수 정의를 기존 선언과 일치시킬 수 없습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(117): note: 'cv::Ptr::Ptr' 선언을 참조하십시오.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(118): note: 정의
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(118): note: 'cv::Ptr::Ptr(Y *)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(118): note: 기존 선언
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(118): note: 'cv::Ptr<_Tp>::Ptr(const cv::Ptr<_Tp2> &)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(118): note: 'cv::Ptr<_Tp>::Ptr(const cv::Ptr<_Tp> &)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(118): note: 'cv::Ptr<_Tp>::Ptr(_Tp *)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(118): note: 'cv::Ptr<_Tp>::Ptr(void)'
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(127): error C2244: 'cv::Ptr::Ptr': 함수 정의를 기존 선언과 일치시킬 수 없습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(126): note: 'cv::Ptr::Ptr' 선언을 참조하십시오.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(127): note: 정의
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(127): note: 'cv::Ptr::Ptr(Y *,D)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(127): note: 기존 선언
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(127): note: 'cv::Ptr<_Tp>::Ptr(const cv::Ptr<_Tp2> &)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(127): note: 'cv::Ptr<_Tp>::Ptr(const cv::Ptr<_Tp> &)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(127): note: 'cv::Ptr<_Tp>::Ptr(_Tp *)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(127): note: 'cv::Ptr<_Tp>::Ptr(void)'
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(134): error C2244: 'cv::Ptr::Ptr': 함수 정의를 기존 선언과 일치시킬 수 없습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(134): note: 'cv::Ptr::Ptr' 선언을 참조하십시오.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(134): note: 정의
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(134): note: 'cv::Ptr::Ptr(const cv::Ptr &)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(134): note: 기존 선언
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(134): note: 'cv::Ptr<_Tp>::Ptr(const cv::Ptr<_Tp2> &)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(134): note: 'cv::Ptr<_Tp>::Ptr(const cv::Ptr<_Tp> &)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(134): note: 'cv::Ptr<_Tp>::Ptr(_Tp *)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(134): note: 'cv::Ptr<_Tp>::Ptr(void)'
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(141): error C2244: 'cv::Ptr::Ptr': 함수 정의를 기존 선언과 일치시킬 수 없습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(141): note: 'cv::Ptr::Ptr' 선언을 참조하십시오.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(141): note: 정의
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(141): note: 'cv::Ptr::Ptr(const cv::Ptr &)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(141): note: 기존 선언
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(141): note: 'cv::Ptr<_Tp>::Ptr(const cv::Ptr<_Tp2> &)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(141): note: 'cv::Ptr<_Tp>::Ptr(const cv::Ptr<_Tp> &)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(141): note: 'cv::Ptr<_Tp>::Ptr(_Tp *)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(141): note: 'cv::Ptr<_Tp>::Ptr(void)'
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(148): error C2244: 'cv::Ptr::Ptr': 함수 정의를 기존 선언과 일치시킬 수 없습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(148): note: 'cv::Ptr::Ptr' 선언을 참조하십시오.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(148): note: 정의
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(148): note: 'cv::Ptr::Ptr(const cv::Ptr &,T *)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(148): note: 기존 선언
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(148): note: 'cv::Ptr<_Tp>::Ptr(const cv::Ptr<_Tp2> &)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(148): note: 'cv::Ptr<_Tp>::Ptr(const cv::Ptr<_Tp> &)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(148): note: 'cv::Ptr<_Tp>::Ptr(_Tp *)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(148): note: 'cv::Ptr<_Tp>::Ptr(void)'
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(155): error C2244: 'cv::Ptr::~Ptr': 함수 정의를 기존 선언과 일치시킬 수 없습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(154): note: 'cv::Ptr::~Ptr' 선언을 참조하십시오.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(155): note: 정의
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(155): note: 'cv::Ptr::~Ptr(void)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(155): note: 기존 선언
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(155): note: 'cv::Ptr<_Tp>::~Ptr(void)'
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(161): error C2244: 'cv::Ptr::operator =': 함수 정의를 기존 선언과 일치시킬 수 없습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(160): note: 'cv::Ptr::operator =' 선언을 참조하십시오.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(161): note: 정의
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(161): note: 'cv::Ptr &cv::Ptr::operator =(const cv::Ptr &)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(161): note: 기존 선언
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(161): note: 'cv::Ptr<_Tp> &cv::Ptr<_Tp>::operator =(const cv::Ptr<_Tp> &)'
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(169): error C2244: 'cv::Ptr::operator =': 함수 정의를 기존 선언과 일치시킬 수 없습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(168): note: 'cv::Ptr::operator =' 선언을 참조하십시오.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(169): note: 정의
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(169): note: 'cv::Ptr &cv::Ptr::operator =(const cv::Ptr &)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(169): note: 기존 선언
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(169): note: 'cv::Ptr<_Tp> &cv::Ptr<_Tp>::operator =(const cv::Ptr<_Tp> &)'
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(176): error C2244: 'cv::Ptr::release': 함수 정의를 기존 선언과 일치시킬 수 없습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(175): note: 'cv::Ptr::release' 선언을 참조하십시오.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(176): note: 정의
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(176): note: 'void cv::Ptr::release(void)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(176): note: 기존 선언
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(176): note: 'void cv::Ptr<_Tp>::release(void)'
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(185): error C2039: 'reset': 'cv::Ptr'의 멤버가 아닙니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\cvstd.hpp(261): note: 'cv::Ptr' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(185): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(192): error C2039: 'reset': 'cv::Ptr'의 멤버가 아닙니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\cvstd.hpp(261): note: 'cv::Ptr' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(192): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(198): error C2039: 'swap': 'cv::Ptr'의 멤버가 아닙니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\cvstd.hpp(261): note: 'cv::Ptr' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(198): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(205): error C2039: 'get': 'cv::Ptr'의 멤버가 아닙니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\cvstd.hpp(261): note: 'cv::Ptr' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(205): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(211): error C2039: '*': 'cv::Ptr'의 멤버가 아닙니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\cvstd.hpp(261): note: 'cv::Ptr' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(211): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(217): error C2244: 'cv::Ptr::operator ->': 함수 정의를 기존 선언과 일치시킬 수 없습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(216): note: 'cv::Ptr::operator ->' 선언을 참조하십시오.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(217): note: 정의
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(217): note: 'T *cv::Ptr::operator ->(void) const'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(217): note: 기존 선언
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(217): note: 'const _Tp *cv::Ptr<_Tp>::operator ->(void) const'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(217): note: '_Tp *cv::Ptr<_Tp>::operator ->(void)'
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(223): error C2244: 'cv::Ptr::operator T *': 함수 정의를 기존 선언과 일치시킬 수 없습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(222): note: 'cv::Ptr::operator T *' 선언을 참조하십시오.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(223): note: 정의
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(223): note: 'cv::Ptr::operator T *(void) const'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(223): note: 기존 선언
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(223): note: 'cv::Ptr<_Tp>::operator const _Tp *(void) const'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(223): note: 'cv::Ptr<_Tp>::operator _Tp *(void)'
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(230): error C2244: 'cv::Ptr::empty': 함수 정의를 기존 선언과 일치시킬 수 없습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(229): note: 'cv::Ptr::empty' 선언을 참조하십시오.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(230): note: 정의
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(230): note: 'bool cv::Ptr::empty(void) const'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(230): note: 기존 선언
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(230): note: 'bool cv::Ptr<_Tp>::empty(void) const'
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(237): error C2039: 'staticCast': 'cv::Ptr'의 멤버가 아닙니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\cvstd.hpp(261): note: 'cv::Ptr' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(237): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(244): error C2039: 'constCast': 'cv::Ptr'의 멤버가 아닙니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\cvstd.hpp(261): note: 'cv::Ptr' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(244): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(251): error C2039: 'dynamicCast': 'cv::Ptr'의 멤버가 아닙니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\cvstd.hpp(261): note: 'cv::Ptr' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(251): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(258): error C2244: 'cv::Ptr::Ptr': 함수 정의를 기존 선언과 일치시킬 수 없습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(258): note: 'cv::Ptr::Ptr' 선언을 참조하십시오.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(258): note: 정의
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(258): note: 'cv::Ptr::Ptr(cv::Ptr &&)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(258): note: 기존 선언
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(258): note: 'cv::Ptr<_Tp>::Ptr(const cv::Ptr<_Tp2> &)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(258): note: 'cv::Ptr<_Tp>::Ptr(const cv::Ptr<_Tp> &)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(258): note: 'cv::Ptr<_Tp>::Ptr(_Tp *)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(258): note: 'cv::Ptr<_Tp>::Ptr(void)'
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(266): error C2244: 'cv::Ptr::operator =': 함수 정의를 기존 선언과 일치시킬 수 없습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(265): note: 'cv::Ptr::operator =' 선언을 참조하십시오.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(266): note: 정의
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(266): note: 'cv::Ptr &cv::Ptr::operator =(cv::Ptr &&)'
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(266): note: 기존 선언
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\ptr.inl.hpp(266): note: 'cv::Ptr<_Tp> &cv::Ptr<_Tp>::operator =(const cv::Ptr<_Tp> &)'
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(135): error C2365: 'cv::DECOMP_LU': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(131): note: 'cv::DECOMP_LU' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(138): error C2365: 'cv::DECOMP_SVD': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(131): note: 'cv::DECOMP_SVD' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(140): error C2365: 'cv::DECOMP_EIG': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(131): note: 'cv::DECOMP_EIG' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(143): error C2365: 'cv::DECOMP_CHOLESKY': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(131): note: 'cv::DECOMP_CHOLESKY' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(145): error C2365: 'cv::DECOMP_QR': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(131): note: 'cv::DECOMP_QR' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(152): error C2365: 'cv::DECOMP_NORMAL': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(131): note: 'cv::DECOMP_NORMAL' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(168): error C2365: 'cv::NORM_INF': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(132): note: 'cv::NORM_INF' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(176): error C2365: 'cv::NORM_L1': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(132): note: 'cv::NORM_L1' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(185): error C2365: 'cv::NORM_L2': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(132): note: 'cv::NORM_L2' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(194): error C2365: 'cv::NORM_L2SQR': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(132): note: 'cv::NORM_L2SQR' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(199): error C2365: 'cv::NORM_HAMMING': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(132): note: 'cv::NORM_HAMMING' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(204): error C2365: 'cv::NORM_HAMMING2': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(132): note: 'cv::NORM_HAMMING2' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(205): error C2365: 'cv::NORM_TYPE_MASK': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(132): note: 'cv::NORM_TYPE_MASK' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(206): error C2365: 'cv::NORM_RELATIVE': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(132): note: 'cv::NORM_RELATIVE' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(208): error C2365: 'cv::NORM_MINMAX': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(132): note: 'cv::NORM_MINMAX' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(211): error C2365: 'cv::CMP_EQ': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(133): note: 'cv::CMP_EQ' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(212): error C2365: 'cv::CMP_GT': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(133): note: 'cv::CMP_GT' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(213): error C2365: 'cv::CMP_GE': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(133): note: 'cv::CMP_GE' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(214): error C2365: 'cv::CMP_LT': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(133): note: 'cv::CMP_LT' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(215): error C2365: 'cv::CMP_LE': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(133): note: 'cv::CMP_LE' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(217): error C2365: 'cv::CMP_NE': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(133): note: 'cv::CMP_NE' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(220): error C2365: 'cv::GEMM_1_T': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(134): note: 'cv::GEMM_1_T' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(221): error C2365: 'cv::GEMM_2_T': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(134): note: 'cv::GEMM_2_T' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(223): error C2365: 'cv::GEMM_3_T': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(134): note: 'cv::GEMM_3_T' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(228): error C2365: 'cv::DFT_INVERSE': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(135): note: 'cv::DFT_INVERSE' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(231): error C2365: 'cv::DFT_SCALE': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(135): note: 'cv::DFT_SCALE' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(236): error C2365: 'cv::DFT_ROWS': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(135): note: 'cv::DFT_ROWS' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(243): error C2365: 'cv::DFT_COMPLEX_OUTPUT': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(135): note: 'cv::DFT_COMPLEX_OUTPUT' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(252): error C2365: 'cv::DFT_REAL_OUTPUT': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(135): note: 'cv::DFT_REAL_OUTPUT' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(258): error C2365: 'cv::DCT_INVERSE': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(136): note: 'cv::DCT_INVERSE' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(264): error C2365: 'cv::DCT_ROWS': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(136): note: 'cv::DCT_ROWS' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(269): error C2365: 'cv::BORDER_CONSTANT': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\imgproc\imgproc.hpp(62): note: 'cv::BORDER_CONSTANT' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(270): error C2365: 'cv::BORDER_REPLICATE': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\imgproc\imgproc.hpp(62): note: 'cv::BORDER_REPLICATE' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(271): error C2365: 'cv::BORDER_REFLECT': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\imgproc\imgproc.hpp(63): note: 'cv::BORDER_REFLECT' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(272): error C2365: 'cv::BORDER_WRAP': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\imgproc\imgproc.hpp(63): note: 'cv::BORDER_WRAP' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(273): error C2365: 'cv::BORDER_REFLECT_101': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\imgproc\imgproc.hpp(64): note: 'cv::BORDER_REFLECT_101' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(274): error C2365: 'cv::BORDER_TRANSPARENT': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\imgproc\imgproc.hpp(65): note: 'cv::BORDER_TRANSPARENT' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(276): error C2365: 'cv::BORDER_REFLECT101': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\imgproc\imgproc.hpp(64): note: 'cv::BORDER_REFLECT101' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(277): error C2365: 'cv::BORDER_DEFAULT': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\imgproc\imgproc.hpp(66): note: 'cv::BORDER_DEFAULT' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(279): error C2365: 'cv::BORDER_ISOLATED': 재정의: 이전 정의는 '열거자'입니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\imgproc\imgproc.hpp(66): note: 'cv::BORDER_ISOLATED' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(433): warning C4005: 'CV_Error': 매크로 재정의
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(221): note: 'CV_Error'의 이전 정의를 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(447): warning C4005: 'CV_Error_': 매크로 재정의
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(222): note: 'CV_Error_'의 이전 정의를 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(478): warning C4005: 'CV_Assert': 매크로 재정의
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\core.hpp(223): note: 'CV_Assert'의 이전 정의를 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(492): error C2011: 'cv::Hamming': 'struct' 형식 재정의
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\features2d\features2d.hpp(1005): note: 'cv::Hamming' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(530): error C2995: '_AccTp cv::normL2Sqr(const _Tp *,int)': 함수 템플릿이 이미 정의되었습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\operations.hpp(938): note: 'cv::normL2Sqr' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(547): error C2995: '_AccTp cv::normL1(const _Tp *,int)': 함수 템플릿이 이미 정의되었습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\operations.hpp(959): note: 'cv::normL1' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(556): error C2995: '_AccTp cv::normInf(const _Tp *,int)': 함수 템플릿이 이미 정의되었습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\operations.hpp(977): note: 'cv::normInf' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(576): error C2995: '_AccTp cv::normL2Sqr(const _Tp *,const _Tp *,int)': 함수 템플릿이 이미 정의되었습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\operations.hpp(987): note: 'cv::normL2Sqr' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(607): error C2995: '_AccTp cv::normL1(const _Tp *,const _Tp *,int)': 함수 템플릿이 이미 정의되었습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\operations.hpp(1027): note: 'cv::normL1' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(639): error C2995: '_AccTp cv::normInf(const _Tp *,const _Tp *,int)': 함수 템플릿이 이미 정의되었습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\operations.hpp(1065): note: 'cv::normInf' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\base.hpp(686): warning C4099: 'cv::DMatch': 처음에는 'struct'을(를) 사용하여 형식 이름을 표시했는데 이제는 'class'을(를) 사용하여 표시합니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\features2d\features2d.hpp(1039): note: 'cv::DMatch' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\traits.hpp(127): error C2953: 'cv::DataType': 클래스 템플릿이 이미 정의되었습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\traits.hpp(112): note: 'cv::DataType' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\traits.hpp(142): error C2913: 명시적 특수화. 'cv::DataType'이(가) 클래스 템플릿의 특수화가 아닙니다.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\traits.hpp(157): error C2913: 명시적 특수화. 'cv::DataType'이(가) 클래스 템플릿의 특수화가 아닙니다.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\traits.hpp(172): error C2913: 명시적 특수화. 'cv::DataType'이(가) 클래스 템플릿의 특수화가 아닙니다.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\traits.hpp(187): error C2913: 명시적 특수화. 'cv::DataType'이(가) 클래스 템플릿의 특수화가 아닙니다.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\traits.hpp(202): error C2913: 명시적 특수화. 'cv::DataType'이(가) 클래스 템플릿의 특수화가 아닙니다.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\traits.hpp(217): error C2913: 명시적 특수화. 'cv::DataType'이(가) 클래스 템플릿의 특수화가 아닙니다.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\traits.hpp(232): error C2913: 명시적 특수화. 'cv::DataType'이(가) 클래스 템플릿의 특수화가 아닙니다.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\traits.hpp(247): error C2913: 명시적 특수화. 'cv::DataType'이(가) 클래스 템플릿의 특수화가 아닙니다.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\traits.hpp(262): error C2913: 명시적 특수화. 'cv::DataType'이(가) 클래스 템플릿의 특수화가 아닙니다.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\traits.hpp(278): error C2953: 'cv::DataDepth': 클래스 템플릿이 이미 정의되었습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\traits.hpp(270): note: 'cv::DataDepth' 선언을 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\fast_math.hpp(102): error C2084: 'int cvRound(double)' 함수에 이미 본문이 있습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\types_c.h(308): note: 'cvRound'의 이전 정의를 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\fast_math.hpp(140): error C2084: 'int cvFloor(double)' 함수에 이미 본문이 있습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\types_c.h(343): note: 'cvFloor'의 이전 정의를 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\fast_math.hpp(153): error C2084: 'int cvCeil(double)' 함수에 이미 본문이 있습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\types_c.h(360): note: 'cvCeil'의 이전 정의를 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\fast_math.hpp(165): error C2084: 'int cvIsNaN(double)' 함수에 이미 본문이 있습니다.
+  c:\users\성혜린\downloads\opencv\build\include\opencv2\core\types_c.h(379): note: 'cvIsNaN'의 이전 정의를 참조하십시오.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\fast_math.hpp(166): error C2079: 'ieee754'은(는) 정의되지 않은 union 'Cv64suf'을(를) 사용합니다.
+c:\users\성혜린\downloads\opencv\build\include\opencv2\core\fast_math.hpp(166): fatal error C1003: 오류 수가 100개를 초과했습니다. 컴파일을 중지합니다.
