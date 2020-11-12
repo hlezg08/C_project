@@ -1,0 +1,5 @@
+﻿  p3_답.c
+c:\users\성혜린\documents\c언어 작업\hw3\hw3\p3_답.c(47): warning C4133: '=': 'ListNode *'과(와) 'ListNode *' 사이의 형식이 호환되지 않습니다.
+c:\users\성혜린\documents\c언어 작업\hw3\hw3\p3_답.c(52): warning C4133: '=': 'ListNode *'과(와) 'ListNode *' 사이의 형식이 호환되지 않습니다.
+  HW3.vcxproj -> C:\Users\성혜린\Documents\c언어 작업\HW3\Debug\HW3.exe
+  HW3.vcxproj -> C:\Users\성혜린\Documents\c언어 작업\HW3\Debug\HW3.pdb (Partial PDB)

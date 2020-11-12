@@ -1,0 +1,4 @@
+﻿  소스.cpp
+c:\users\성혜린\documents\c언어 작업\hw6_2_answer\hw6_2_answer\소스.cpp(332): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  hw6_2_answer.vcxproj -> C:\Users\성혜린\Documents\c언어 작업\hw6_2_answer\Debug\hw6_2_answer.exe
+  hw6_2_answer.vcxproj -> C:\Users\성혜린\Documents\c언어 작업\hw6_2_answer\Debug\hw6_2_answer.pdb (Partial PDB)

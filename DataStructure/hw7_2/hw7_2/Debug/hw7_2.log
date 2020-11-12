@@ -1,0 +1,6 @@
+﻿  hw7_2.c
+c:\users\성혜린\documents\c언어 작업\hw7_2\hw7_2\hw7_2.c(12): warning C4013: 'counting_sort'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\성혜린\documents\c언어 작업\hw7_2\hw7_2\hw7_2.c(12): error C2065: 'B': 선언되지 않은 식별자입니다.
+c:\users\성혜린\documents\c언어 작업\hw7_2\hw7_2\hw7_2.c(15): error C2371: 'counting_sort': 재정의. 기본 형식이 다릅니다.
+c:\users\성혜린\documents\c언어 작업\hw7_2\hw7_2\hw7_2.c(21): error C2065: 'n': 선언되지 않은 식별자입니다.
+c:\users\성혜린\documents\c언어 작업\hw7_2\hw7_2\hw7_2.c(27): error C2065: 'n': 선언되지 않은 식별자입니다.
